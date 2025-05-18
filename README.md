@@ -85,12 +85,19 @@
 
 ```text
 moviepy==1.0.3
-numpy
-opencv-python
+imageio>=2.5
+imageio-ffmpeg>=0.4.2
+proglog>=0.1.9
 pydub
-openai-whisper
-requests
+openai
+whisper
 toml
+requests
+numpy==1.24.4
+opencv-python
+regex
+git+https://github.com/openai/whisper.git
+
 ```
 
 ---
